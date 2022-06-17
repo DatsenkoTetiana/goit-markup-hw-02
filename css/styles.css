@@ -1,0 +1,113 @@
+body{
+    font-family: 'Roboto',sans-serif;
+    color: #212121;
+}
+:root{
+    --white-color:#fff;
+    --black-color: #212121;
+    --blue-color: #2196f3;
+    --grey-color: #757575;
+    --blue-background-color: #2196f3;
+    --darkblue-background-color: #2F303A;
+    --lightdrey-background-color: #F5F4FA;
+    
+}
+/* header */
+.logo{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+span{
+    color: var(--black-color);
+}
+
+.nav-link{
+    line-height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+   
+}
+.nav .nav-link{
+    color: var(--black-color);
+}
+.nav .nav-link:hover{
+    color: var(--blue-color);
+}
+.nav .nav-link:focus{
+    color: var(--blue-color);
+}
+
+
+.contacts{
+    text-decoration: none;
+}
+.contact{
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+.contacts .contact{
+color: var(--grey-color);
+}
+.contacts .contact:hover{
+    color: var(--blue-background-color);
+}
+.contacts .contact:focus{
+    color: var(--blue-background-color);
+}
+/* buttons */
+.btn{
+line-height: 26px;
+ font-weight: 500;
+ font-size: 16px;
+ cursor: pointer;
+ background-color: var(--lightdrey-background-color); 
+ border: none;
+}
+.buttons .btn{
+    color: var(--black-color);
+}
+.buttons .btn:hover{
+    color: var(--white-color);
+    background-color: var(--blue-background-color);
+}
+.buttons .btn:focus{
+    color: var(--white-color);
+  background-color: var(--blue-background-color);
+}
+
+
+/* section */
+.container{
+    background-color: var(--white-color);
+}
+.title{
+    line-height: 36px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.suptitle{
+    line-height: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--grey-color);
+}
+
+/* footer */
+.footer{
+background-color: var(--darkblue-background-color);
+}
+.address{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white-color);
+    
+}
+.footer-logo{
+    color: var(--white-color);
+}
