@@ -12,6 +12,55 @@ body{
     --lightdrey-background-color: #F5F4FA;
     
 }
+ul{
+    list-style-type: none;
+}
+/* hat */
+.hat{
+    background-color: var(--darkblue-background-color);
+}
+.hat-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+
+
+.task{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+.task-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--grey-color);
+}
+
+
+.professions{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+
+.name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.profession{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--grey-color);
+}
+
 /* header */
 .logo{
     text-decoration: none;
@@ -25,9 +74,9 @@ span{
 }
 
 .nav-link{
-    line-height: 16px;
     font-weight: 500;
     font-size: 14px;
+    line-height: 16px;
     text-decoration: none;
    
 }
@@ -68,23 +117,22 @@ line-height: 26px;
  background-color: var(--lightdrey-background-color); 
  border: none;
 }
-.buttons .btn{
+.btn{
     color: var(--black-color);
 }
-.buttons .btn:hover{
+ .btn:hover{
     color: var(--white-color);
     background-color: var(--blue-background-color);
 }
-.buttons .btn:focus{
+ .btn:focus{
     color: var(--white-color);
   background-color: var(--blue-background-color);
 }
 
 
 /* section */
-.container{
-    background-color: var(--white-color);
-}
+
+
 .title{
     line-height: 36px;
     font-weight: 700;
